@@ -4,6 +4,8 @@
   "description": "ionicBLEAttendance: An Ionic project",
   "dependencies": {
     "cordova-android": "^7.0.0",
+    "cordova-plugin-ble-central": "^1.2.2",
+    "cordova-plugin-compat": "^1.2.0",
     "cordova-plugin-ionic": "^4.1.7",
     "cordova-plugin-splashscreen": "^5.0.2",
     "gulp": "^3.5.6",
@@ -39,7 +41,8 @@
         "WARN_DEBUG": "true",
         "UPDATE_API": "https://api.ionicjs.com",
         "MAX_STORE": "2"
-      }
+      },
+      "cordova-plugin-ble-central": {}
     }
   }
 }
