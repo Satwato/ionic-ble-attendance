@@ -4,7 +4,7 @@
 
   function HomeController($scope, $state, DeviceFactory){
 
-    $scope.devices = [];
+    $scope.devices = []; // the devices listed in the page
 
     $scope.scan = function(){
 
@@ -12,7 +12,6 @@
       ble.startScan(
         [],
         function(device){
-          console.log(device);
           if(device.name){
             DeviceFactory.addDevice({ 'id': device.id, 'name': device.name });
           }
@@ -52,3 +51,4 @@
   }
 
 })();
+

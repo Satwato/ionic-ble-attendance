@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bleno": "^0.4.2"
+    "bleno": "^0.4.2",
+    "bluetooth-hci-socket": "^0.5.1"
   }
 }
