@@ -1,0 +1,12 @@
+{
+  "name": "ionicBLEAttendance",
+  "app_id": "9fe61699",
+  "integrations": {},
+  "type": "ionic1",
+  "watchPatterns": [
+    "scss/**/*",
+    "www/**/*",
+    "!www/lib/**/*",
+    "!www/**/*.map"
+  ]
+}
